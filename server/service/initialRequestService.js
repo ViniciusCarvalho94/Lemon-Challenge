@@ -1,4 +1,4 @@
-const stringForMessage = 'Para fazer qualquer fazer a requisição POST utilize algum software de sua preferencia passando um json no body.';
+const stringForMessage = 'Para fazer qualquer requisição POST utilize algum software de sua preferencia passando um json no body.';
 const objectForExample = {
   numeroDoDocumento: 'string',
   tipoDeConexao: 'string',

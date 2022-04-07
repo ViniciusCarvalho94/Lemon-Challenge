@@ -23,7 +23,7 @@ describe('Teste de integração da API', () => {
   const postRequest = (body) => chai.request(api).post('/').send(body);
 
   it('Ao acessar o "/" utilizando o metodo get retorna o esperado', () => {
-    const stringForMessage = 'Para fazer qualquer fazer a requisição POST utilize algum software de sua preferencia passando um json no body.';
+    const stringForMessage = 'Para fazer qualquer requisição POST utilize algum software de sua preferencia passando um json no body.';
     getRequest(withInvalidClassOfConsumptionAndInvalidTariffModalityAndLowAverageConsumption)
       .end((_err, res) => {
         const { status, body } = res;
