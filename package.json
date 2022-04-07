@@ -5,6 +5,7 @@
   "main": "Server/api.js",
   "scripts": {
     "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
     "test": "mocha",
     "test:coverage": "nyc --all --reporter=html npm run test"
   },
