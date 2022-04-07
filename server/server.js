@@ -1,6 +1,6 @@
 /* istanbul ignore file */
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 const api = require('./api');
 
 api.listen(port);
