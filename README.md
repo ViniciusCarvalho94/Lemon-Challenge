@@ -11,8 +11,8 @@
 - - service: Código de domínio
 - - utils: Funções com repetição de código
 - test: Source do teste de integração
-- - mock: Contém respostas mocadas
-- - - correctBody: Contém respostas corretas 
+- - correctBody: Contém respostas para o método Get
+- - filesToPost: Contém respostas para o método Post
 
 
 ## Dependências
