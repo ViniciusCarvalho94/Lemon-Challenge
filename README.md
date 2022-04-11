@@ -11,7 +11,7 @@
 - - service: Código de domínio
 - - utils: Funções com repetição de código
 - test: Source do teste de integração
-- - correctBody: Contém respostas para o método Get
+- - filesToGet: Contém respostas para o método Get
 - - filesToPost: Contém respostas para o método Post
 
 
