@@ -32,13 +32,6 @@
 - nodemon: HTTP Server para desenvolvimento local
 - nyc: Ferramenta para verificação de cobertura de testes
 
-
-## Disponivel na web
-
-`*` - Está disponivel para acesso global no link: https://lemon-challenge.herokuapp.com/
-
-obs: `*` Devido a hospedagem ser feita no `Heroku` e ter um tempo limite se caso não for acessado, pode ser que o primeiro acesso demore até 3 minutos para aplicação estar disponivel via web.
-
 ## Como rodar a aplicação?
 - Instale as dependências: 
 ```bash
